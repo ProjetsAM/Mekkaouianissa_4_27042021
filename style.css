@@ -39,8 +39,8 @@ a:hover {
 }
 
 .bloc .container {
-	padding-left: 0;
-	padding-right: 0
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .bloc-lg {
@@ -883,7 +883,7 @@ h4 {
 	.bloc-fill-screen .fill-bloc-top-edge {
 		padding: 0 20px;
 		padding-left: 10px;
-		padding-right: 10px
+		padding-right: constant(safe-area-inset-right)
 	}
 }
 
